@@ -43,9 +43,7 @@
                         {{ App\Models\User::count() }} users
                     </h1>
 
-                    <h1 class="text-5xl font-extrabold tracking-wider text-center text-gray-600">
-                        {{ App\Models\User::where('tenant_id', 1)->count() }} with company 1
-                    </h1>
+                   <livewire:department-form />
 
                     <ul class="list-reset">
                         <li class="inline px-4">
